@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #232323;
+    margin: 0;
+} 
+h1 {
+    color: #fff;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    padding: 20px 0;
+}
+#colorDisplay {
+    font-weight: 400;
+    display: block;
+    font-size: 200%;
+    line-height: 1.5;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+
+#message {
+    display: inline-block;
+    width: 16%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    color: #232323;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin:1.66%;
+    border-radius: 15%;
+    transition: background 0.8s;
+    -webkit-transition: background 0.8s;
+    -moz-transition: background 0.8s;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    outline: none;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
